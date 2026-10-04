@@ -1,0 +1,29 @@
+{
+  "stage": "optimize",
+  "seed": 42,
+  "arguments": [
+    "--generator",
+    "models/generator_round5.pt",
+    "--classifier",
+    "models/classifier",
+    "--steps",
+    "3",
+    "--len_low",
+    "20",
+    "--len_high",
+    "30",
+    "--out",
+    "results/demo_optimized.pt",
+    "--log_every",
+    "1",
+    "--save_every",
+    "3"
+  ],
+  "python": "3.10.19 (main, Feb 12 2026, 00:37:08) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "torch": "2.7.1+cpu",
+  "cuda": null,
+  "gpu": null,
+  "status": "completed",
+  "elapsed_seconds": 5.098576068878174
+}

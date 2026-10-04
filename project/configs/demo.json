@@ -1,0 +1,15 @@
+{
+  "version": "amp-submission-1.0",
+  "generator": "models/generator_round5.pt",
+  "classifier": "models/classifier",
+  "seed": 42,
+  "n_samples": 100,
+  "topk": 10,
+  "len_low": 20,
+  "len_high": 30,
+  "act_thr": 0.9,
+  "max_run": 5,
+  "max_hyd_run": 7,
+  "temperature": 1.0,
+  "top_p": 0.95
+}

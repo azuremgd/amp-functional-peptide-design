@@ -1,0 +1,13 @@
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+Saved 3 candidates -> D:\AMP_all\AMP_Master\outputs\competition_submission_20261004\project\results\demo_before.csv; run record -> D:\AMP_all\AMP_Master\outputs\competition_submission_20261004\project\logs\demo_before.run.json
+Device: cpu
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+Loaded classifier from models/classifier
+[step 1] reward=0.621 act=0.803 act_used=0.803 gate=0.831 act_eff=0.668 struct_err=0.303 rep=0.074 hyd_run=0.111 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.259 hf=0.593 nc=7.00 mu=0.815 loss=23.3968 seq=GLFKFVAKAVKKVAISAVKKAVGKIVT
+Done. Final generator saved to results/demo_optimized.pt
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+Sampled 30/30; passed=9
+Saved 5 candidates -> D:\AMP_all\AMP_Master\outputs\competition_submission_20261004\project\results\demo_results.csv; run record -> D:\AMP_all\AMP_Master\outputs\competition_submission_20261004\project\logs\demo_results.run.json

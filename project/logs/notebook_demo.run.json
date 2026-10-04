@@ -1,0 +1,36 @@
+{
+  "mode": "generate",
+  "config": {
+    "version": "amp-submission-1.0",
+    "generator": "models/generator_round5.pt",
+    "classifier": "models/classifier",
+    "seed": 42,
+    "n_samples": 30,
+    "topk": 5,
+    "len_low": 20,
+    "len_high": 30,
+    "act_thr": 0.9,
+    "max_run": 5,
+    "max_hyd_run": 7,
+    "temperature": 1.0,
+    "top_p": 0.95
+  },
+  "python": "3.10.19 (main, Feb 12 2026, 00:37:08) [MSC v.1944 64 bit (AMD64)]",
+  "seed": 42,
+  "device": "cpu",
+  "torch": "2.7.1+cpu",
+  "cuda": null,
+  "inference_executed": true,
+  "classifier_sha256": "88f7843eff8ccfed67f4e909e0d280ca2598ad4f3cdfb6e48e6cc7da6662e901",
+  "generator_sha256": "b74389dd2f227a68a262dd854fff2425f0c534f3cb8841501de3c0f84a181bfb",
+  "screening_counts": {
+    "sampled": 30,
+    "duplicate": 0,
+    "rules_failed": 0,
+    "score_failed": 21,
+    "passed": 9
+  },
+  "elapsed_seconds": 11.505933046340942,
+  "output_count": 5,
+  "output_sha256": "33bcc0b38763ec6c44064eac8a112e82e2bf7cc656bd96ac054a16bcff2a20aa"
+}

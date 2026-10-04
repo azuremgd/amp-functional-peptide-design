@@ -1,0 +1,16 @@
+{
+  "version": "amp-submission-1.0",
+  "generator": "models/generator_round5.pt",
+  "classifier": "models/classifier",
+  "seed": 42,
+  "n_samples": 120000,
+  "topk": 200,
+  "len_low": 12,
+  "len_high": 60,
+  "act_thr": 0.9,
+  "max_run": 5,
+  "max_hyd_run": 7,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "note": "Re-run configuration using exported code defaults; historical seed/full CLI not retained. Does not promise byte-identical regenerated Top200."
+}

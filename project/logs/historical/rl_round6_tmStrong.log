@@ -1,0 +1,62 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at /root/autodl-tmp/hf_models/prot_bert_bfd and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Device: cuda
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+Loaded classifier from /root/autodl-tmp/AMP_checkpoints/cls_unfreeze2_hardneg_r2/checkpoint_best
+[step 100] reward=0.471 act=0.965 act_used=0.950 struct_err=0.406 rep=0.139 hyd_run=0.194 len_pen=0.000 tm_pen=0.000 cf=0.250 hf=0.556 nc=9.00 loss=30.3147 seq=KRIAKKAVGAFAAAAATFAIKKVSTKVAKSVVTGAK
+[step 200] reward=0.321 act=0.958 act_used=0.950 struct_err=0.633 rep=0.138 hyd_run=0.241 len_pen=0.000 tm_pen=0.017 cf=0.103 hf=0.621 nc=3.00 loss=16.0603 seq=SIITSIFSFIVTAIKAKAKGIAIAAAAGT
+[step 300] reward=0.002 act=0.350 act_used=0.350 struct_err=0.576 rep=0.071 hyd_run=0.048 len_pen=0.000 tm_pen=0.000 cf=0.262 hf=0.262 nc=11.00 loss=0.1996 seq=AASRTKSPKASIARKSSPATAKATTTKRVRTTTGSRPSKAVP
+[step 400] reward=0.570 act=0.894 act_used=0.894 struct_err=0.391 rep=0.111 hyd_run=0.111 len_pen=0.000 tm_pen=0.000 cf=0.222 hf=0.593 nc=6.00 loss=22.9191 seq=KFKSAIAKAAKKAFGAAATAVKAVTSA
+[step 500] reward=-0.224 act=0.499 act_used=0.499 struct_err=0.711 rep=0.117 hyd_run=0.117 len_pen=0.000 tm_pen=0.083 cf=0.083 hf=0.667 nc=5.00 loss=-18.4401 seq=LAAAAAGKAGVAAGAAAAAAAGAAAAGAATGAAAGTGAAKVVVGVAVGAKVKAGIKSATA
+[step 600] reward=0.575 act=0.843 act_used=0.843 struct_err=0.430 rep=0.077 hyd_run=0.077 len_pen=0.000 tm_pen=0.000 cf=0.231 hf=0.385 nc=6.00 loss=32.2322 seq=KRVVTGAVSATKKARAATTGVTTRGA
+[step 700] reward=0.494 act=0.965 act_used=0.950 struct_err=0.656 rep=0.083 hyd_run=0.167 len_pen=0.000 tm_pen=0.000 cf=0.292 hf=0.500 nc=7.00 loss=26.1686 seq=GKRLAFKARTVARSAAFATSIRFR
+[step 800] reward=0.229 act=0.645 act_used=0.645 struct_err=0.479 rep=0.111 hyd_run=0.167 len_pen=0.000 tm_pen=0.000 cf=0.250 hf=0.611 nc=9.00 loss=14.3818 seq=KKAAAAFVKKVFRSLKKVAASVLGKALGSAVAAAKA
+[step 900] reward=-0.125 act=0.924 act_used=0.924 struct_err=0.685 rep=0.118 hyd_run=0.294 len_pen=0.000 tm_pen=0.145 cf=0.176 hf=0.765 nc=3.00 loss=-3.7622 seq=FKILAALKGAAKAIVAL
+[step 1000] reward=0.124 act=0.691 act_used=0.691 struct_err=0.597 rep=0.120 hyd_run=0.240 len_pen=0.000 tm_pen=0.000 cf=0.160 hf=0.560 nc=4.00 loss=6.7311 seq=RGKAAASATKLITAALFAATTKGFL
+Saved RL-tuned generator to checkpoints/gen_rl_round6_tmStrong
+[step 1100] reward=0.400 act=0.841 act_used=0.841 struct_err=0.843 rep=0.061 hyd_run=0.102 len_pen=0.000 tm_pen=0.000 cf=0.184 hf=0.531 nc=9.00 loss=33.8282 seq=KKVVGAAIGAIARAAGRAAGAGVTKIAITAIATGIAAIAKTIGGKKKTT
+[step 1200] reward=0.231 act=0.562 act_used=0.562 struct_err=0.527 rep=0.095 hyd_run=0.095 len_pen=0.000 tm_pen=0.000 cf=0.333 hf=0.476 nc=7.00 loss=7.2094 seq=GRIIKRIIKRIRTAITTAIRA
+[step 1300] reward=0.147 act=0.647 act_used=0.647 struct_err=0.703 rep=0.033 hyd_run=0.082 len_pen=0.017 tm_pen=0.000 cf=0.230 hf=0.426 nc=14.00 loss=18.6203 seq=AVPKATITIKGIATSRVAGKTAIAIARKKRAGKGAAGVVSGAVAAVTISTTGKKRTSRRGI
+[step 1400] reward=0.427 act=0.741 act_used=0.741 struct_err=0.582 rep=0.070 hyd_run=0.070 len_pen=0.000 tm_pen=0.000 cf=0.256 hf=0.558 nc=11.00 loss=24.2615 seq=SFKKVAKVIAKAAKKVASFAKTAISTVANAVTAKVKKKAASAA
+[step 1500] reward=-0.129 act=0.801 act_used=0.801 struct_err=0.734 rep=0.056 hyd_run=0.099 len_pen=0.183 tm_pen=0.162 cf=0.070 hf=0.732 nc=5.00 loss=-13.4446 seq=SIAGVAAITVAKAAGIAAAAIAGAAAAGIVATAVTAVKTAITAVKTKVGAAVAAVTAIIAIAKAIIAATVI
+[step 1600] reward=0.426 act=0.830 act_used=0.830 struct_err=0.693 rep=0.095 hyd_run=0.095 len_pen=0.000 tm_pen=0.000 cf=0.190 hf=0.429 nc=4.00 loss=20.2757 seq=APKLPATTSAAKFASSIGKKI
+[step 1700] reward=-0.234 act=0.236 act_used=0.236 struct_err=0.813 rep=0.121 hyd_run=0.121 len_pen=0.000 tm_pen=0.000 cf=0.333 hf=0.545 nc=11.00 loss=-12.0421 seq=KAAAAKAAKAGKAAFAGKKTAKIAKAKIAKKSA
+[step 1800] reward=0.556 act=0.936 act_used=0.936 struct_err=0.535 rep=0.100 hyd_run=0.100 len_pen=0.000 tm_pen=0.000 cf=0.250 hf=0.475 nc=10.00 loss=48.5460 seq=KKFTAIVRTLRAKRAAAARVISAASTARIAAGTPTPPARK
+[step 1900] reward=0.222 act=0.637 act_used=0.637 struct_err=0.626 rep=0.122 hyd_run=0.098 len_pen=0.000 tm_pen=0.000 cf=0.488 hf=0.293 nc=20.00 loss=15.7537 seq=KKKKKTKKAAKSTASRRFAKTSTIAAATRAATRARKRRRRR
+[step 2000] reward=0.075 act=0.857 act_used=0.857 struct_err=0.799 rep=0.111 hyd_run=0.278 len_pen=0.000 tm_pen=0.047 cf=0.278 hf=0.667 nc=5.00 loss=2.5341 seq=KKVVIIVKRKAVIVAGVI
+Saved RL-tuned generator to checkpoints/gen_rl_round6_tmStrong
+[step 2100] reward=-0.399 act=0.200 act_used=0.200 struct_err=1.063 rep=0.087 hyd_run=0.174 len_pen=0.000 tm_pen=0.000 cf=0.217 hf=0.478 nc=3.00 loss=-23.3036 seq=QQPKLRIIDAAEVGRVTKKALAI
+[step 2200] reward=0.548 act=0.960 act_used=0.950 struct_err=0.496 rep=0.118 hyd_run=0.118 len_pen=0.000 tm_pen=0.000 cf=0.294 hf=0.471 nc=5.00 loss=16.8936 seq=GFKRKIVSAASTAARKF
+[step 2300] reward=-0.317 act=0.324 act_used=0.324 struct_err=0.595 rep=0.100 hyd_run=0.300 len_pen=0.167 tm_pen=0.000 cf=0.300 hf=0.500 nc=3.00 loss=-2.7311 seq=RWCVYARVRG
+[step 2400] reward=0.191 act=0.849 act_used=0.849 struct_err=0.311 rep=0.182 hyd_run=0.364 len_pen=0.083 tm_pen=0.000 cf=0.273 hf=0.545 nc=3.00 loss=4.5345 seq=FRRFSAAIFRS
+[step 2500] reward=0.185 act=0.619 act_used=0.619 struct_err=0.484 rep=0.103 hyd_run=0.154 len_pen=0.000 tm_pen=0.000 cf=0.231 hf=0.513 nc=9.00 loss=14.7067 seq=MGAAKAAARAISRLKVGAVAAAARRLSSRGGASARTTRA
+[step 2600] reward=0.643 act=0.912 act_used=0.912 struct_err=0.576 rep=0.059 hyd_run=0.059 len_pen=0.000 tm_pen=0.000 cf=0.206 hf=0.294 nc=7.00 loss=49.4650 seq=RSGSPSITAIKGSSGSFIGRTTIGVFTARRKGAK
+[step 2700] reward=0.192 act=0.626 act_used=0.626 struct_err=0.654 rep=0.107 hyd_run=0.107 len_pen=0.000 tm_pen=0.000 cf=0.321 hf=0.393 nc=9.00 loss=8.8526 seq=KKIGKKIGKIAGKAIGAAAGRKKSITTA
+[step 2800] reward=0.061 act=0.810 act_used=0.810 struct_err=1.070 rep=0.113 hyd_run=0.132 len_pen=0.000 tm_pen=0.000 cf=0.340 hf=0.547 nc=18.00 loss=5.1978 seq=KKKKKKAAATGFVAAVAAGAAAAGAARKKIARSRRRGRRRIAAIRIARAIAAI
+[step 2900] reward=-0.331 act=0.329 act_used=0.329 struct_err=0.638 rep=0.190 hyd_run=0.190 len_pen=0.000 tm_pen=0.047 cf=0.238 hf=0.667 nc=10.00 loss=-14.9716 seq=KALAAKLAAAAAKAAKKAAKAATGAAAAAAAAKKAAKKAANT
+[step 3000] reward=0.287 act=0.679 act_used=0.679 struct_err=0.499 rep=0.071 hyd_run=0.048 len_pen=0.000 tm_pen=0.000 cf=0.357 hf=0.333 nc=15.00 loss=21.8619 seq=KKRFRITAKKAFKIAKTASKTTAFSGRRKSGKSSSATIRRAA
+Saved RL-tuned generator to checkpoints/gen_rl_round6_tmStrong
+[step 3100] reward=-0.324 act=0.034 act_used=0.034 struct_err=0.204 rep=0.143 hyd_run=0.143 len_pen=0.000 tm_pen=0.000 cf=0.500 hf=0.500 nc=7.00 loss=-8.1338 seq=FKLRFRKFLKKFKI
+[step 3200] reward=0.592 act=0.961 act_used=0.950 struct_err=0.376 rep=0.059 hyd_run=0.147 len_pen=0.000 tm_pen=0.000 cf=0.265 hf=0.529 nc=9.00 loss=40.8482 seq=VKSKVIIAAKSIFRSAASAARAATAIKTKIAGKR
+[step 3300] reward=0.338 act=0.906 act_used=0.906 struct_err=0.625 rep=0.075 hyd_run=0.175 len_pen=0.000 tm_pen=0.000 cf=0.175 hf=0.600 nc=7.00 loss=21.8619 seq=VRRFPIVAAIAAGAGIKTAAARGARKIGGIIAAAIGGIRA
+[step 3400] reward=0.279 act=0.580 act_used=0.580 struct_err=0.391 rep=0.105 hyd_run=0.105 len_pen=0.000 tm_pen=0.000 cf=0.342 hf=0.500 nc=13.00 loss=16.2221 seq=RVRKAATKAARAIARAIRRAAAARRSIRARASSASSRA
+[step 3500] reward=0.292 act=0.852 act_used=0.852 struct_err=0.460 rep=0.158 hyd_run=0.263 len_pen=0.000 tm_pen=0.000 cf=0.158 hf=0.368 nc=3.00 loss=12.1504 seq=RPSKGSLKSSAAAFAGSSA
+[step 3600] reward=-0.594 act=0.928 act_used=0.928 struct_err=0.460 rep=0.143 hyd_run=0.286 len_pen=0.417 tm_pen=0.250 cf=0.143 hf=0.429 nc=1.00 loss=-11.8649 seq=RWTQLIS
+[step 3700] reward=0.521 act=0.960 act_used=0.950 struct_err=0.767 rep=0.079 hyd_run=0.079 len_pen=0.000 tm_pen=0.000 cf=0.158 hf=0.605 nc=6.00 loss=32.7743 seq=AFSTIFKIAAKAAPAIVSAAAGKKIRGIAIRGCITAVI
+[step 3800] reward=-0.298 act=0.677 act_used=0.677 struct_err=0.828 rep=0.200 hyd_run=0.200 len_pen=0.583 tm_pen=0.000 cf=0.400 hf=0.400 nc=2.00 loss=-2.7434 seq=RWRIS
+[step 3900] reward=-0.221 act=0.848 act_used=0.848 struct_err=0.629 rep=0.200 hyd_run=0.533 len_pen=0.000 tm_pen=0.047 cf=0.267 hf=0.667 nc=4.00 loss=-5.7236 seq=KKRVIKTLAAIAAAI
+[step 4000] reward=0.254 act=0.871 act_used=0.871 struct_err=0.818 rep=0.083 hyd_run=0.208 len_pen=0.000 tm_pen=0.000 cf=0.167 hf=0.583 nc=4.00 loss=12.8103 seq=KSAAVVIGAIGCAFIKRFVGGKFA
+Saved RL-tuned generator to checkpoints/gen_rl_round6_tmStrong
+[step 4100] reward=0.227 act=0.559 act_used=0.559 struct_err=0.379 rep=0.058 hyd_run=0.058 len_pen=0.000 tm_pen=0.000 cf=0.192 hf=0.538 nc=10.00 loss=14.7095 seq=SFASIAKKIAAKIAGAAARIAGRIARRAAGKIAGAATGKTTGGIASAIKTAA
+[step 4200] reward=0.516 act=0.938 act_used=0.938 struct_err=0.565 rep=0.091 hyd_run=0.091 len_pen=0.000 tm_pen=0.000 cf=0.273 hf=0.545 nc=6.00 loss=18.3624 seq=KIFKTAFKKAAKAVGSVASAIK
+[step 4300] reward=0.482 act=0.877 act_used=0.877 struct_err=0.448 rep=0.071 hyd_run=0.071 len_pen=0.000 tm_pen=0.000 cf=0.393 hf=0.429 nc=11.00 loss=21.8423 seq=AARKIRRAFSSIIRSARAARRARARSRG
+[step 4400] reward=0.427 act=0.883 act_used=0.883 struct_err=0.429 rep=0.103 hyd_run=0.103 len_pen=0.000 tm_pen=0.000 cf=0.172 hf=0.483 nc=5.00 loss=18.9947 seq=ITSAAKTIKKAASTAAATAKTAATRTAVS
+[step 4500] reward=-0.020 act=0.503 act_used=0.503 struct_err=0.720 rep=0.105 hyd_run=0.105 len_pen=0.000 tm_pen=0.000 cf=0.368 hf=0.316 nc=14.00 loss=-1.1466 seq=KKKKTAAAARAGSRAGAARRRSGGSSAARRSSARRRGA
+[step 4600] reward=0.525 act=0.960 act_used=0.950 struct_err=0.455 rep=0.080 hyd_run=0.120 len_pen=0.000 tm_pen=0.000 cf=0.320 hf=0.480 nc=8.00 loss=24.3199 seq=RRSFRSAFRFAARFAGSFFKRIASR
+[step 4700] reward=0.552 act=0.725 act_used=0.725 struct_err=0.250 rep=0.043 hyd_run=0.065 len_pen=0.000 tm_pen=0.000 cf=0.239 hf=0.587 nc=11.00 loss=35.8862 seq=ALKKIAKVAARAAGKAIGTVAKAVAKTVVGAATKAAITAVKKVVTK
+[step 4800] reward=0.292 act=0.889 act_used=0.889 struct_err=0.969 rep=0.111 hyd_run=0.111 len_pen=0.000 tm_pen=0.000 cf=0.407 hf=0.444 nc=11.00 loss=14.7670 seq=KKKIFSVRRFRIAIKRTTSRAARRAAI
+[step 4900] reward=0.459 act=0.814 act_used=0.814 struct_err=0.399 rep=0.067 hyd_run=0.067 len_pen=0.000 tm_pen=0.000 cf=0.200 hf=0.578 nc=9.00 loss=29.6778 seq=AKVFAGKAAAKAAAGAIKAIAGTATAAVGTVTRAVKAAATRAKKT
+[step 5000] reward=0.081 act=0.561 act_used=0.561 struct_err=0.755 rep=0.074 hyd_run=0.074 len_pen=0.000 tm_pen=0.000 cf=0.222 hf=0.407 nc=6.00 loss=4.3188 seq=ARSSVAGAAKAKSSAASKRGVATRTAG
+Saved RL-tuned generator to checkpoints/gen_rl_round6_tmStrong
+Done. Final generator saved to checkpoints/gen_rl_round6_tmStrong

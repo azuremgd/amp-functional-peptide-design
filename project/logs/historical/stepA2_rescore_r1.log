@@ -1,0 +1,51 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at /root/autodl-tmp/hf_models/prot_bert_bfd and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+[OK] Loaded classifier: /root/autodl-tmp/AMP_checkpoints/cls_unfreeze2_hardneg_r1/checkpoint_best
+[INFO] in_csv=data/hard_neg_round2.csv rows=8000 seq_col=seq
+[score] 200/8000
+[score] 400/8000
+[score] 600/8000
+[score] 800/8000
+[score] 1000/8000
+[score] 1200/8000
+[score] 1400/8000
+[score] 1600/8000
+[score] 1800/8000
+[score] 2000/8000
+[score] 2200/8000
+[score] 2400/8000
+[score] 2600/8000
+[score] 2800/8000
+[score] 3000/8000
+[score] 3200/8000
+[score] 3400/8000
+[score] 3600/8000
+[score] 3800/8000
+[score] 4000/8000
+[score] 4200/8000
+[score] 4400/8000
+[score] 4600/8000
+[score] 4800/8000
+[score] 5000/8000
+[score] 5200/8000
+[score] 5400/8000
+[score] 5600/8000
+[score] 5800/8000
+[score] 6000/8000
+[score] 6200/8000
+[score] 6400/8000
+[score] 6600/8000
+[score] 6800/8000
+[score] 7000/8000
+[score] 7200/8000
+[score] 7400/8000
+[score] 7600/8000
+[score] 7800/8000
+[score] 8000/8000
+[STAT] n=8000 mean=0.985618 median=0.992366
+[STAT] act>=0.9: 1.0000
+[STAT] act>=0.95: 0.9424
+[STAT] act>=0.99: 0.6392
+[OK] Saved: results/eval/hard_neg_round2_rescore_r1.csv

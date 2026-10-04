@@ -1,0 +1,41 @@
+{
+  "notebook": {
+    "status": "passed",
+    "elapsed_seconds": 13.594040393829346
+  },
+  "checks": [
+    {
+      "arguments": [
+        "train.py",
+        "--stage",
+        "pretrain",
+        "--seed",
+        "2025",
+        "--fasta",
+        "data/synthetic_pretrain.fasta",
+        "--out",
+        "results/smoke_pretrain.pt",
+        "--epochs",
+        "1",
+        "--bs",
+        "8",
+        "--max_seqs",
+        "40",
+        "--val_frac",
+        "0.2",
+        "--num_workers",
+        "0"
+      ],
+      "returncode": 0
+    }
+  ],
+  "generator_original_sha256": "b74389dd2f227a68a262dd854fff2425f0c534f3cb8841501de3c0f84a181bfb",
+  "generator_optimized_sha256": "ce155fc95a76367de400a18e14b9244db1470ed83f9a559398f61fce24dc5a2a",
+  "platform": "win32",
+  "python": "3.10.19 (main, Feb 12 2026, 00:37:08) [MSC v.1944 64 bit (AMD64)]",
+  "limitations": [
+    "CPU Windows verification only; Linux CUDA not executed locally",
+    "Synthetic training validates engineering execution only",
+    "Full classifier retraining and historical round5 retraining not verified"
+  ]
+}

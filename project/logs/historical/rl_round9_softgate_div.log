@@ -1,0 +1,32 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at /root/autodl-tmp/hf_models/prot_bert_bfd and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Device: cuda
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+Loaded classifier from /root/autodl-tmp/AMP_checkpoints/cls_unfreeze2_hardneg_r2/checkpoint_best
+[step 100] reward=0.173 act=0.746 act_used=0.746 gate=0.804 act_eff=0.600 struct_err=1.164 rep=0.167 hyd_run=0.167 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.417 hf=0.583 nc=5.00 mu=1.968 loss=0.0006 seq=AARRAARAARRA
+[step 200] reward=0.464 act=0.902 act_used=0.902 gate=0.839 act_eff=0.757 struct_err=2.000 rep=0.054 hyd_run=0.054 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.405 hf=0.595 nc=15.00 mu=1.754 loss=0.0001 seq=AARRAARAARRAARAARRAARAARRAARAARRAARAA
+[step 300] reward=0.114 act=0.820 act_used=0.820 gate=0.655 act_eff=0.537 struct_err=1.217 rep=0.154 hyd_run=0.154 len_pen=0.000 tm_pen=0.001 (hyd2=0.001 cat2=0.000 net2=0.000) cf=0.385 hf=0.615 nc=5.00 mu=1.882 loss=0.0000 seq=AARRAARAARRAA
+[step 500] reward=0.651 act=0.924 act_used=0.924 gate=0.893 act_eff=0.825 struct_err=1.482 rep=0.065 hyd_run=0.065 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.419 hf=0.581 nc=13.00 mu=1.766 loss=0.0009 seq=AARRAARAARRAARAARRAARAARRAARAAR
+[step 600] reward=0.700 act=0.881 act_used=0.881 gate=0.933 act_eff=0.822 struct_err=1.468 rep=0.043 hyd_run=0.043 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.435 hf=0.565 nc=20.00 mu=1.642 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRAARAARRAARAARR
+[step 700] reward=0.674 act=0.913 act_used=0.913 gate=0.898 act_eff=0.820 struct_err=1.463 rep=0.053 hyd_run=0.053 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.421 hf=0.579 nc=16.00 mu=1.682 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRAARAAR
+[step 800] reward=0.592 act=0.899 act_used=0.899 gate=0.873 act_eff=0.785 struct_err=1.552 rep=0.069 hyd_run=0.069 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.414 hf=0.586 nc=12.00 mu=1.835 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARA
+[step 1000] reward=0.847 act=0.888 act_used=0.888 gate=0.918 act_eff=0.816 struct_err=0.622 rep=0.095 hyd_run=0.095 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.429 hf=0.571 nc=9.00 mu=2.000 loss=0.0000 seq=AARRAARAARRAARAARRAAR
+Saved RL-tuned generator to checkpoints/gen_rl_round9_softgate_div
+[step 1100] reward=0.740 act=0.919 act_used=0.919 gate=0.908 act_eff=0.834 struct_err=1.315 rep=0.061 hyd_run=0.061 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.424 hf=0.576 nc=14.00 mu=1.812 loss=0.0001 seq=AARRAARAARRAARAARRAARAARRAARAARRA
+[step 1300] reward=0.190 act=0.746 act_used=0.746 gate=0.804 act_eff=0.600 struct_err=1.106 rep=0.167 hyd_run=0.167 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.417 hf=0.583 nc=5.00 mu=1.968 loss=0.0000 seq=AARRAARAARRA
+[step 1600] reward=0.562 act=0.916 act_used=0.916 gate=0.763 act_eff=0.699 struct_err=1.165 rep=0.087 hyd_run=0.087 len_pen=0.000 tm_pen=0.001 (hyd2=0.001 cat2=0.000 net2=0.000) cf=0.391 hf=0.609 nc=9.00 mu=1.883 loss=0.0000 seq=AARRAARAARRAARAARRAARAA
+[step 1700] reward=0.890 act=0.914 act_used=0.914 gate=0.939 act_eff=0.858 struct_err=0.904 rep=0.062 hyd_run=0.062 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.438 hf=0.562 nc=14.00 mu=1.850 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARR
+[step 1900] reward=0.543 act=0.902 act_used=0.902 gate=0.848 act_eff=0.765 struct_err=1.610 rep=0.074 hyd_run=0.074 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.407 hf=0.593 nc=11.00 mu=1.869 loss=0.0013 seq=AARRAARAARRAARAARRAARAARRAA
+[step 2000] reward=0.679 act=0.917 act_used=0.917 gate=0.936 act_eff=0.858 struct_err=1.665 rep=0.051 hyd_run=0.051 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.436 hf=0.564 nc=17.00 mu=1.754 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRAARAARR
+Saved RL-tuned generator to checkpoints/gen_rl_round9_softgate_div
+[step 2100] reward=0.689 act=0.907 act_used=0.907 gate=0.866 act_eff=0.785 struct_err=1.333 rep=0.059 hyd_run=0.059 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.412 hf=0.588 nc=14.00 mu=1.805 loss=0.0002 seq=AARRAARAARRAARAARRAARAARRAARAARRAA
+[step 2200] reward=0.820 act=0.888 act_used=0.888 gate=0.918 act_eff=0.816 struct_err=0.711 rep=0.095 hyd_run=0.095 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.429 hf=0.571 nc=9.00 mu=2.000 loss=0.0000 seq=AARRAARAARRAARAARRAAR
+[step 2300] reward=0.811 act=0.881 act_used=0.881 gate=0.933 act_eff=0.822 struct_err=1.095 rep=0.043 hyd_run=0.043 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.435 hf=0.565 nc=20.00 mu=1.642 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRAARAARRAARAARR
+[step 2400] reward=0.582 act=0.907 act_used=0.907 gate=0.866 act_eff=0.785 struct_err=1.691 rep=0.059 hyd_run=0.059 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.412 hf=0.588 nc=14.00 mu=1.805 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRAA
+[step 2500] reward=0.745 act=0.888 act_used=0.888 gate=0.918 act_eff=0.816 struct_err=0.961 rep=0.095 hyd_run=0.095 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.429 hf=0.571 nc=9.00 mu=2.000 loss=0.0003 seq=AARRAARAARRAARAARRAAR
+[step 2700] reward=0.736 act=0.914 act_used=0.914 gate=0.939 act_eff=0.858 struct_err=1.417 rep=0.062 hyd_run=0.062 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.438 hf=0.562 nc=14.00 mu=1.850 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARR
+[step 2900] reward=0.712 act=0.897 act_used=0.897 gate=0.919 act_eff=0.825 struct_err=1.470 rep=0.048 hyd_run=0.048 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.429 hf=0.571 nc=18.00 mu=1.732 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRAARAARRAAR
+[step 3000] reward=0.719 act=0.919 act_used=0.919 gate=0.908 act_eff=0.834 struct_err=1.384 rep=0.061 hyd_run=0.061 len_pen=0.000 tm_pen=0.000 (hyd2=0.000 cat2=0.000 net2=0.000) cf=0.424 hf=0.576 nc=14.00 mu=1.812 loss=0.0000 seq=AARRAARAARRAARAARRAARAARRAARAARRA
+Saved RL-tuned generator to checkpoints/gen_rl_round9_softgate_div
+Done. Final generator saved to checkpoints/gen_rl_round9_softgate_div

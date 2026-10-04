@@ -1,0 +1,47 @@
+[
+  {
+    "file": "apd_positive.csv",
+    "sha256": "f2b0fb08ee926a6731e9a6c02874e5c1f1d1e9aa95f1b713f1799ede91605611",
+    "rows": 2940,
+    "unique_sequences": 2940,
+    "invalid_sequences": 0,
+    "acquisition_date": "not retained",
+    "redistribution_permission": "not verified; original data excluded from archive"
+  },
+  {
+    "file": "dbaasp_positive.csv",
+    "sha256": "2340dbc66777eb03f3a9feb07f5b551064eebf1c2d809b9e4e13ad4d66573ab7",
+    "rows": 14623,
+    "unique_sequences": 14623,
+    "invalid_sequences": 0,
+    "acquisition_date": "not retained",
+    "redistribution_permission": "not verified; original data excluded from archive"
+  },
+  {
+    "file": "positive_all.csv",
+    "sha256": "17062da3392d8a54204bb35a129ffe1975041fdfc03cf7e5394402b2d31632de",
+    "rows": 15479,
+    "unique_sequences": 15479,
+    "invalid_sequences": 0,
+    "acquisition_date": "not retained",
+    "redistribution_permission": "not verified; original data excluded from archive"
+  },
+  {
+    "file": "uniprot_negative.csv",
+    "sha256": "3d14c1adb232c98548a4e9fc23098f559ac74d0828d8c250fb96dbc27d01ed61",
+    "rows": 15479,
+    "unique_sequences": 15479,
+    "invalid_sequences": 0,
+    "acquisition_date": "not retained",
+    "redistribution_permission": "not verified; original data excluded from archive"
+  },
+  {
+    "file": "AMP-data.csv",
+    "sha256": "93beb4f4f2a7021c0f4ae5db6f59b4c298182501e731015aefc6d44bbeb22695",
+    "rows": 30958,
+    "unique_sequences": 30958,
+    "invalid_sequences": 0,
+    "acquisition_date": "not retained",
+    "redistribution_permission": "not verified; original data excluded from archive"
+  }
+]

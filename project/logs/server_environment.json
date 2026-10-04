@@ -1,0 +1,14 @@
+{
+  "source": "user-provided terminal capture; current environment, not proven historical training environment",
+  "captured_at": "2026-10-03T17:34:13+00:00",
+  "python": "3.10.19",
+  "os": "Ubuntu 22.04.1 LTS",
+  "kernel": "5.15.0-60-generic x86_64",
+  "driver": "535.274.02",
+  "driver_max_cuda": "12.2",
+  "torch": "2.7.1+cu118",
+  "torch_cuda_runtime": "11.8",
+  "gpu": "Tesla V100S-PCIE-32GB",
+  "gpu_memory_mib": 32768,
+  "editable_install_original": "amp-project==0.1.0 at /root/AMP"
+}

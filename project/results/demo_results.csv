@@ -1,0 +1,6 @@
+candidate_id,track,sequence,predicted_activity,length_aa,model_version,run_version,remarks
+AMP-001,赛道一：AI大分子与多肽药物设计,KYGALKFVKGAASGAGAVAEAFITGITAKS,0.97228414,30,generator-round5-tm/classifier-hardneg-r2,amp-submission-1.0,New small-scale design; not historical Top200; score is not MIC or experimentally verified activity
+AMP-002,赛道一：AI大分子与多肽药物设计,VIKTLAGLIRESVGARTTKAFAGAAFGFAK,0.96795213,30,generator-round5-tm/classifier-hardneg-r2,amp-submission-1.0,New small-scale design; not historical Top200; score is not MIC or experimentally verified activity
+AMP-003,赛道一：AI大分子与多肽药物设计,APVFFGIKAAAIGVAVKTAAGAVVKTAIAG,0.96727878,30,generator-round5-tm/classifier-hardneg-r2,amp-submission-1.0,New small-scale design; not historical Top200; score is not MIC or experimentally verified activity
+AMP-004,赛道一：AI大分子与多肽药物设计,PEKRWSRAIRGILRKKSNTSFPVRRSVSAF,0.95474291,30,generator-round5-tm/classifier-hardneg-r2,amp-submission-1.0,New small-scale design; not historical Top200; score is not MIC or experimentally verified activity
+AMP-005,赛道一：AI大分子与多肽药物设计,SKLAAGAVFGKAAAAAKAFT,0.94581157,20,generator-round5-tm/classifier-hardneg-r2,amp-submission-1.0,New small-scale design; not historical Top200; score is not MIC or experimentally verified activity

@@ -1,0 +1,6 @@
+{
+  "head_type": "mlp",
+  "head_hidden": 256,
+  "head_depth": 2,
+  "head_dropout": 0.1
+}

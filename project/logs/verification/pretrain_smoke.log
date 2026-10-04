@@ -1,0 +1,10 @@
+[Pretrain LM] Device: cpu
+[read_fasta] loaded 40 raw sequences from data/synthetic_pretrain.fasta
+[UniRefSeqDataset] total valid sequences after filtering: 40
+[Split] train=32, val=8
+[Pretrain LM] frozen params (FiLM + reg_head): 6
+[Pretrain LM] trainable_params = 3825684 / total_params = 3834393
+[LM pretrain] epoch 1/1:   0%|          | 0/4 [00:00<?, ?it/s][LM pretrain] epoch 1/1:   0%|          | 0/4 [00:00<?, ?it/s, loss=4.94][LM pretrain] epoch 1/1:   0%|          | 0/4 [00:00<?, ?it/s, loss=8.38][LM pretrain] epoch 1/1:  50%|█████     | 2/4 [00:00<00:00, 11.17it/s, loss=8.38][LM pretrain] epoch 1/1:  50%|█████     | 2/4 [00:00<00:00, 11.17it/s, loss=9.59][LM pretrain] epoch 1/1:  50%|█████     | 2/4 [00:00<00:00, 11.17it/s, loss=6.68][LM pretrain] epoch 1/1: 100%|██████████| 4/4 [00:00<00:00, 11.54it/s, loss=6.68][LM pretrain] epoch 1/1: 100%|██████████| 4/4 [00:00<00:00, 11.48it/s, loss=6.68]
+[Epoch 1] train_loss=7.3978 val_loss=8.1931 val_ppl=3615.97
+[✓] New best val_loss=8.1931, checkpoint saved to: results/smoke_pretrain.pt
+[Done] Best val_loss=8.1931, best checkpoint=results/smoke_pretrain.pt

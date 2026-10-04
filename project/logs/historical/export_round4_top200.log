@@ -1,0 +1,17 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at /root/autodl-tmp/hf_models/prot_bert_bfd and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Device: cuda
+load_state_dict missing_keys: []
+load_state_dict unexpected_keys: []
+Loaded classifier: /root/autodl-tmp/AMP_checkpoints/cls_unfreeze2_hardneg_r2/checkpoint_best
+[export] 2000/20000 kept=554
+[export] 2500/20000 kept=692
+[export] 4500/20000 kept=1246
+[export] 10000/20000 kept=2794
+[export] 10500/20000 kept=2931
+[export] 11500/20000 kept=3229
+[export] 12000/20000 kept=3365
+[export] 12500/20000 kept=3491
+[export] 14500/20000 kept=4034
+[export] 16500/20000 kept=4590
+[OK] saved top200 -> results/candidates/round4_top200.csv

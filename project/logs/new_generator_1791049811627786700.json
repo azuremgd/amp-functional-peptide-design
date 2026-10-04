@@ -1,0 +1,23 @@
+{
+  "stage": "generator",
+  "seed": 42,
+  "arguments": [
+    "--data",
+    "data/synthetic_smoke.csv",
+    "--out",
+    "results/smoke_training",
+    "--name",
+    "smoke.pt",
+    "--epochs",
+    "1",
+    "--bs",
+    "8",
+    "--seed",
+    "42"
+  ],
+  "python": "3.10.19 (main, Feb 12 2026, 00:37:08) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "torch": "2.7.1+cpu",
+  "cuda": null,
+  "status": "completed"
+}

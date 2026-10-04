@@ -1,0 +1,23 @@
+{
+  "positive": {
+    "sha256": "17062da3392d8a54204bb35a129ffe1975041fdfc03cf7e5394402b2d31632de",
+    "raw": 15479,
+    "valid": 15479,
+    "unique": 15479
+  },
+  "negative": {
+    "sha256": "3d14c1adb232c98548a4e9fc23098f559ac74d0828d8c250fb96dbc27d01ed61",
+    "raw": 15479,
+    "valid": 15479,
+    "unique": 15479
+  },
+  "cross_label_overlap_removed": 0,
+  "final_rows": 30958,
+  "final_positive": 15479,
+  "final_negative": 15479,
+  "seed": 42,
+  "output_sha256": "a859e0d9aeb6e57e67c0ee5115561a48358edef2bc47c7b73d7b3e2d157c2136",
+  "original_sha256": "93beb4f4f2a7021c0f4ae5db6f59b4c298182501e731015aefc6d44bbeb22695",
+  "same_records_and_order": true,
+  "byte_difference": "CSV serialization/line endings differ; parsed records and order identical"
+}
